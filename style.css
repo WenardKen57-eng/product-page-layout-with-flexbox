@@ -10,6 +10,10 @@ html {
     margin: 0;
 }
 
+body {
+    font-family: 'Arial', 'sans-serif';
+}
+
 #header {
     padding: 18px;
     display: flex;
@@ -41,7 +45,7 @@ html {
     flex-direction: column;
     gap: 10px;
     padding: 8px;
-    margin: 0 18px 0 0;
+    margin: 0 18px 18px 0;
 }
 
 .products-container .card img {
