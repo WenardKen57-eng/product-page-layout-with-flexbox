@@ -9,3 +9,21 @@ html {
     padding: 0;
     margin: 0;
 }
+
+#header {
+    padding: 18px;
+    display: flex;
+    align-items: center;
+}
+
+#header h1 {
+    flex-grow: 1;
+}
+
+#header .filter-container,
+#header .sort-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 18px;
+    gap: 8px;
+}
